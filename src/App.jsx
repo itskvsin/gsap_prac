@@ -1,3 +1,4 @@
+import About from "../components/About";
 import Hero from "../components/Hero";
 
 function App() {
@@ -5,8 +6,7 @@ function App() {
     <>
       <main className="min-h-screen relative overflow-x-hidden w-screen">
         <Hero />
-
-        <section className="relative min-h-screen w-screen overflow-x-hidden"/>
+        <About />
       </main>
     </>
   );
